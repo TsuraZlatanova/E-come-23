@@ -1,0 +1,139 @@
+header {
+    
+    width:auto;
+    height: 655px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+body {
+    background-color: black;
+    margin-bottom: 220px;
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+}
+
+.reflektion {
+    font-size: 40px;
+    font-weight: 400;
+    font-style: opensans;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.förälder {
+    background-color: white;
+    width: 1220px;
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.barn1 {
+    
+    background-size: cover;
+    height: 360px;
+    width: 610px;
+    color: rgb(43, 33, 37);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: opensans; 
+    font-size: 40px;
+}
+.barn2 {
+    height: 360px;
+    width: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(141, 22, 91);
+    font-family: opensans;
+    font-size: 40px;
+}
+
+.förälder2 {
+    background-color: white;
+    width: 1218px;
+    height: 1005px;
+    top: 1015px;
+    left: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.barn3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    font-family: opensans;
+    font-size: 16px;
+    top: 108px; 
+    left: 83px; 
+    text-align: center;
+    line-height: 21.79px;
+}
+
+hr {
+    background-color: blueviolet;
+    border: none; 
+    align-items: center; 
+    top: 85px; 
+    left: 541px; 
+    width: 135.05px;
+    height: 4px;
+}
+
+
+.slutsats {
+    height: 66px;
+    width: 1064px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white; 
+    font-family: opensans;
+    font-size: 16px;
+     top: 108px; 
+     left: 83px;
+    text-align: center;
+    line-height: 21.79px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
